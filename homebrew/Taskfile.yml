@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - install
+  install:
+    cmds:
+      - brew bundle
+  dump:
+    cmds:
+      - brew bundle dump --file=Brewfile

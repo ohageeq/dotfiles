@@ -1,0 +1,10 @@
+version: "3"
+
+includes:
+  homebrew:
+    taskfile: ./homebrew/Taskfile.yml
+
+tasks:
+  build:
+    cmds:
+      - task: homebrew 

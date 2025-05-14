@@ -1,0 +1,12 @@
+[url "ssh://git@github.com/"]
+        insteadOf = https://github.com/
+[user]
+        email = mugi65.as@gmail.com
+        name = mugi65
+[credential]
+        helper = 
+        helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+        useHttpPath = true
+[alias]
+        tree = log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by"%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'
