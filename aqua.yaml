@@ -14,7 +14,7 @@ packages:
   - name: sqldef/sqldef/psqldef@v1.0.6
   - name: aws/aws-cli@2.27.14
   - name: bufbuild/buf@v1.54.0
-  - name: jdx/mise@v2025.5.3
+  - name: jdx/mise@v2025.9.8
   - name: protocolbuffers/protobuf/protoc@v30.2
   - name: yamafaktory/jql@jql-v8.0.6
   - name: cli/cli@v2.72.0
