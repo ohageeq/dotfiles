@@ -12,7 +12,7 @@ registries:
   ref: v4.366.0 # renovate: depName=aquaproj/aqua-registry
 packages:
   - name: sqldef/sqldef/psqldef@v1.0.6
-  - name: aws/aws-cli@2.27.14
+  - name: aws/aws-cli@2.29.1
   - name: bufbuild/buf@v1.54.0
   - name: jdx/mise@v2025.5.3
   - name: protocolbuffers/protobuf/protoc@v30.2
