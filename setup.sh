@@ -29,8 +29,7 @@ fi
 
 brew install go-task/tap/go-task
 
-# link
-SCRIPT_DIR=$(cd $(dirname $0); pwd)
+# link .zsh
 "$SCRIPT_DIR/link.sh"
 
 task init
