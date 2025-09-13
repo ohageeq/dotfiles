@@ -1,3 +1,7 @@
 # dotfiles
 
-run `./setup.sh`
+## setup
+run `sh ./setup.sh`
+
+## update brews
+`task brew-dump`

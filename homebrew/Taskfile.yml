@@ -3,10 +3,10 @@ version: "3"
 tasks:
   default:
     cmds:
-      - install
+      - brew bundle --file=Brewfile --force
   install:
     cmds:
-      - brew bundle
+      - brew bundle --file=Brewfile
   dump:
     cmds:
-      - brew bundle dump --file=Brewfile
+      - brew bundle dump --file=Brewfile --force
