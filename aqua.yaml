@@ -22,3 +22,4 @@ packages:
   - name: twistedpair/google-cloud-sdk@522.0.0
   - name: direnv/direnv@v2.36.0
   - name: golang/go@go1.24.3
+  - name: rhysd/actionlint@v1.7.7

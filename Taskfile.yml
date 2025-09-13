@@ -10,6 +10,7 @@ tasks:
     cmds:
       - task: homebrew
       - task: aqua-install
+      - sh git/gh-ext.sh
   aqua-install:
     cmd: aqua i -l
   brew-dump:
