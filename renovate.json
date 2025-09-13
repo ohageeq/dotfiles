@@ -3,5 +3,11 @@
   "extends": [
     "config:base",
     "github>aquaproj/aqua-renovate-config#2.2.1"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "automerge": true
+    }
   ]
 }
